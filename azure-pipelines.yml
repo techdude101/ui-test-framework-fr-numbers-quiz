@@ -14,4 +14,5 @@ steps:
 - task: DotNetCoreCLI@2
   inputs:
     command: 'test'
+    workingDirectory: 'UiTestFrameworkFrNumbersQuiz'
     testRunTitle: 'Production - UI Test'
